@@ -78,4 +78,5 @@
   programs.git.enable = true;
   programs.git.settings.user.name = "Bojan Čoka";
   programs.git.settings.user.email = "bojan.coka@gmail.com";
+  programs.git.settings.init.defaultBranch = "main";
 }
