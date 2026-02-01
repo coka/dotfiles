@@ -22,6 +22,7 @@
   home.packages = [
     pkgs.alejandra
     pkgs.gnumake
+    pkgs.helix
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
