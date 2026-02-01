@@ -5,3 +5,7 @@ switch:
 .PHONY: format
 format:
 	alejandra .
+
+.PHONY: update
+update:
+	nix flake update
