@@ -4,6 +4,11 @@
     "files.trimTrailingWhitespace": true,
     "telemetry.telemetryLevel": "off",
     "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     }
 }
